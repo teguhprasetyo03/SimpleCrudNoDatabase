@@ -6,6 +6,10 @@ public class MusicItem {
     private String tvTitle;
     private String tvDesc;
 
+    public void changeText1(String text){
+        tvTitle = text;
+    }
+
     public int getImgItem() {
         return imgItem;
     }
